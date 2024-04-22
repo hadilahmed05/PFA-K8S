@@ -1,0 +1,13 @@
+[all]
+controlplane
+workernode
+
+[kube_cluster]
+controlplane
+workernode
+
+[kube_controlplanes]
+controlplane
+
+[kube_workernodes]
+workernode

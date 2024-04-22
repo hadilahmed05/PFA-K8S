@@ -1,0 +1,14 @@
+---
+- name: Initialize Kubernetes Cluster
+  hosts: all
+  tags: cluster
+  become: true
+  collections:
+    - ansible.builtin
+    - ansible.posix
+    - community.general
+  roles:
+    - role: ../roles/pre-setup
+    - role: ../roles/containerd
+    - role: ../roles/kubeadm
+...

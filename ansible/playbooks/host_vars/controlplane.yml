@@ -1,0 +1,3 @@
+---
+kube_cluster_initial_controlplane: true
+kube_cluster_node_type: 'master' 
