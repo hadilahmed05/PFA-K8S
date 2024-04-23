@@ -1,6 +1,6 @@
 ---
 # tasks file for containerd
-- include_tasks: setup-os.yml # I will work on this later for battlerocketOS
+- include_tasks: setup-os.yml 
 
 - name: Ensure containerd is installed.
   package:
