@@ -1,5 +1,5 @@
 ---
-# Will change this later for BottleRocketOS
+
 - name: Add Docker GPG key.
   rpm_key:
     key: "{{ docker_yum_gpg_key }}"
