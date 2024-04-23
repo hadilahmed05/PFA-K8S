@@ -41,7 +41,7 @@
     persistent: present 
   loop: ['overlay','br_netfilter','ceph','ip_vs','ip_vs_rr', 'rbd'] 
 
-# See: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#letting-iptables-see-bridged-traffic
+
 - name: Ensure iptables can see bridged traffic
   sysctl:
     name: "{{ item }}"
